@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kaggle --version)",
+      "Bash(python3 -c \"import torch; print\\('torch', torch.__version__\\)\")",
+      "Bash(python3 -c \"import torchvision; print\\('torchvision', torchvision.__version__\\)\")",
+      "Bash(python3 -c \"import pandas; print\\('pandas', pandas.__version__\\)\")",
+      "Bash(python3 -c \"import numpy; print\\('numpy', numpy.__version__\\)\")",
+      "Bash(python3 -m kaggle --version)",
+      "Bash(python3 -c \"import kagglehub; print\\(kagglehub.__version__\\)\")",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' -H 'Authorization: Bearer KGAT_a5f7a577f2828a20cee974dad714385f' https://www.kaggle.com/api/v1/competitions/kul-computer-vision-ga-2-2025/data/download-all)",
+      "Bash(curl -s -w '\\\\n%{http_code}' -H 'Authorization: Bearer KGAT_a5f7a577f2828a20cee974dad714385f' https://www.kaggle.com/api/v1/competitions.CompetitionApiService/DownloadDataFiles -d '{\"competition_name\":\"kul-computer-vision-ga-2-2025\"}' -H 'Content-Type: application/json')",
+      "Bash(brew install *)",
+      "Bash(pdftotext \"/Users/benjamin/Library/CloudStorage/GoogleDrive-sohungsum.us@gmail.com/My Drive/KU Leuven/AI/Semester 2/Computer Vision/Assignment 3/CV_GA2.pdf\" -)",
+      "Bash(python3)",
+      "Read(//Users/benjamin/.kaggle/**)",
+      "Bash(python3 -c \"import kaggle\")",
+      "Bash(kaggle competitions *)",
+      "Bash(unzip -q '/Users/benjamin/Library/CloudStorage/GoogleDrive-sohungsum.us@gmail.com/My Drive/KU Leuven/AI/Semester 2/Computer Vision/Assignment 3/data/kul-computer-vision-ga-2-2026.zip' -d '/Users/benjamin/Library/CloudStorage/GoogleDrive-sohungsum.us@gmail.com/My Drive/KU Leuven/AI/Semester 2/Computer Vision/Assignment 3/data/kul-computer-vision-ga-2-2026')"
+    ]
+  }
+}
